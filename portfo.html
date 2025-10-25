@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Essential meta -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- SEO meta -->
+  <title>Jagan T | Software Developer — Python, ML, Web</title>
+  <meta name="description" content="Portfolio of Jagan T — software developer specializing in Python, Machine Learning, and Web Development. View projects, skills, and contact details." />
+  <meta name="author" content="Jagan T" />
+  <link rel="canonical" href="https://your-domain.example/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Jagan T | Software Developer — Python, ML, Web" />
+  <meta property="og:description" content="Portfolio of Jagan T — software developer specializing in Python, Machine Learning, and Web Development. View projects and contact details." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://your-domain.example/" />
+  <meta property="og:image" content="https://your-domain.example/og-image.jpg" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Jagan T | Software Developer — Python, ML, Web" />
+  <meta name="twitter:description" content="Portfolio of Jagan T — software developer specializing in Python, Machine Learning, and Web Development." />
+  <meta name="twitter:image" content="https://your-domain.example/og-image.jpg" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1055/1055646.png" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Base styles + focus outline -->
+  <style>
+    :root {
+      color-scheme: light;
+    }
+    html { scroll-behavior: smooth; }
+    .active-tab { color: #38bdf8; border-bottom: 2px solid #38bdf8; }
+    .focus-ring:focus { outline: 3px solid #38bdf8; outline-offset: 2px; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased">
+  <!-- Skip link -->
+  <a href="#main" class="sr-only focus:not-sr-only focus-ring fixed left-4 top-4 z-[60] bg-white text-gray-900 px-4 py-2 rounded-md shadow">
+    Skip to content
+  </a>
+
+  <!-- Header -->
+  <header class="bg-gray-900 text-white fixed w-full top-0 z-50 shadow-md" role="banner">
+    <div class="max-w-7xl mx-auto flex justify-between items-center py-4 px-6">
+      <a href="#home" class="text-2xl font-bold tracking-wide focus-ring">JAGAN T</a>
+      <nav class="space-x-6" aria-label="Primary">
+        <button id="tab-home" class="hover:text-sky-400 active-tab focus-ring pb-1" data-target="home" aria-current="page">
+          Home
+        </button>
+        <button id="tab-projects" class="hover:text-sky-400 focus-ring pb-1" data-target="projects">
+          Projects
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main id="main" class="pt-24 pb-14" role="main">
+    <!-- Hero -->
+    <section id="home" class="max-w-7xl mx-auto px-6">
+      <div class="grid md:grid-cols-2 gap-10 items-center min-h-[60vh]">
+        <div class="text-center md:text-left">
+          <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight">
+            Hi, I'm <span class="text-sky-500">Jagan</span>
+          </h1>
+          <p class="mt-5 text-lg text-gray-600 leading-relaxed">
+            A software developer focused on creating impactful, user-friendly, and scalable solutions with Python, Machine Learning, and modern Web technologies. 
+          </p>
+          <div class="mt-7 flex flex-wrap gap-3 justify-center md:justify-start">
+            <a href="https://github.com/jagant141" target="_blank" rel="noopener"
+               class="inline-flex items-center bg-gray-900 text-white px-5 py-2 rounded-full hover:bg-sky-600 transition focus-ring">
+              GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/jagan-t-628221316/" target="_blank" rel="noopener"
+               class="inline-flex items-center bg-sky-500 text-white px-5 py-2 rounded-full hover:bg-sky-600 transition focus-ring">
+              LinkedIn
+            </a>
+            <a href="#contact"
+               class="inline-flex items-center border border-gray-300 text-gray-900 px-5 py-2 rounded-full hover:border-sky-400 hover:text-sky-600 transition focus-ring">
+              Contact
+            </a>
+          </div>
+        </div>
+        <div class="hidden md:block">
+          <div class="relative bg-gradient-to-br from-sky-100 to-white rounded-2xl p-8 shadow-inner">
+            <p class="text-sm uppercase tracking-wider text-sky-700 font-semibold">Focus</p>
+            <ul class="mt-3 space-y-2 text-gray-700">
+              <li>Python • Pandas • FastAPI</li>
+              <li>Machine Learning • scikit-learn</li>
+              <li>Web • HTML • CSS • JS • Tailwind</li>
+              <li>UI/UX • Accessibility • Performance</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- About -->
+      <div class="mt-16 grid md:grid-cols-2 gap-10">
+        <section aria-labelledby="about-title">
+          <h2 id="about-title" class="text-2xl font-bold text-gray-900 mb-4 border-b-4 border-sky-500 inline-block">
+            About Me
+          </h2>
+          <p class="text-gray-700 leading-relaxed">
+            Currently pursuing an MCA at LEAD College of Autonomous, building advanced skills across software engineering and data disciplines. Completed BCA at CCSIT, Palakkad, establishing a strong foundation in computer science and programming. 
+          </p>
+          <p class="text-gray-700 leading-relaxed mt-3">
+            Deep interest in coding, product development, and UI/UX — combining logic and creativity to deliver smooth experiences. Growing enthusiasm for data science to solve real-world problems with evidence and clarity. 
+          </p>
+          <p class="text-gray-700 leading-relaxed mt-3">
+            Career goal: UI/UX Designer or Data Scientist, blending design thinking with technical expertise to build intelligent, user-focused solutions. 
+          </p>
+        </section>
+
+        <aside aria-labelledby="education-title">
+          <h2 id="education-title" class="text-2xl font-bold text-gray-900 mb-4 border-b-4 border-sky-500 inline-block">
+            Education
+          </h2>
+          <ul class="space-y-3 text-gray-700">
+            <li>
+              <span class="font-semibold">Master of Computer Applications (MCA)</span> — LEAD College of Autonomous — Ongoing
+            </li>
+            <li>
+              <span class="font-semibold">Bachelor of Computer Application (BCA)</span> — CCSIT Palakkad, 2025
+            </li>
+            <li>
+              <span class="font-semibold">High School</span> — AKNMMA HSS Kattukulam, 2022
+            </li>
+          </ul>
+
+          <h3 class="text-xl font-semibold text-gray-900 mt-8">Technical Skills</h3>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <span class="bg-sky-100 text-sky-700 px-3 py-1.5 rounded-full text-sm">Python</span>
+            <span class="bg-sky-100 text-sky-700 px-3 py-1.5 rounded-full text-sm">Java</span>
+            <span class="bg-sky-100 text-sky-700 px-3 py-1.5 rounded-full text-sm">HTML</span>
+            <span class="bg-sky-100 text-sky-700 px-3 py-1.5 rounded-full text-sm">CSS</span>
+            <span class="bg-sky-100 text-sky-700 px-3 py-1.5 rounded-full text-sm">JavaScript</span>
+          </div>
+        </aside>
+      </div>
+
+      <!-- Contact -->
+      <section id="contact" aria-labelledby="contact-title" class="mt-16">
+        <h2 id="contact-title" class="text-2xl font-bold text-gray-900 mb-4 border-b-4 border-sky-500 inline-block">
+          Contact
+        </h2>
+        <p class="text-gray-600 mb-6">Open to collaborations, internships, and freelance opportunities.</p>
+        <div class="grid sm:grid-cols-3 gap-4 text-gray-700">
+          <a href="mailto:jagant141@gmail.com" class="block bg-white rounded-xl p-4 shadow hover:shadow-md transition focus-ring">
+            📧 Email: <span class="text-sky-600">jagant141@gmail.com</span>
+          </a>
+          <a href="tel:+919778185211" class="block bg-white rounded-xl p-4 shadow hover:shadow-md transition focus-ring">
+            📞 Phone: <span class="text-sky-600">+91 97781 85211</span>
+          </a>
+          <a href="https://www.linkedin.com/in/jagan-t-628221316/" target="_blank" rel="noopener"
+             class="block bg-white rounded-xl p-4 shadow hover:shadow-md transition focus-ring">
+            🔗 LinkedIn: <span class="text-sky-600">/in/jagan-t-628221316/</span>
+          </a>
+        </div>
+      </section>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="max-w-7xl mx-auto px-6 hidden" aria-labelledby="projects-title">
+      <h2 id="projects-title" class="text-3xl font-bold text-gray-900 mb-8 border-b-4 border-sky-500 inline-block">
+        Projects
+      </h2>
+
+      <!-- Project grid -->
+      <div class="grid md:grid-cols-2 gap-8">
+        <!-- Reusable card pattern -->
+        <article class="group bg-white shadow rounded-2xl overflow-hidden hover:shadow-lg transition">
+          <a href="file:///D:/program%20files%20D/portfolio/project%201.html" class="block focus-ring">
+            <img src="C:\Users\jt577\OneDrive\Pictures\Screenshots\Screenshot 2025-10-25 093333.png" alt="Kerala Weather Predictor preview" class="w-full h-48 object-cover" loading="lazy">
+          </a>
+          <div class="p-5">
+            <h3 class="text-xl font-semibold text-gray-900 group-hover:text-sky-600 transition">
+              Kerala Weather Predictor
+            </h3>
+            <p class="mt-2 text-gray-600">
+              District-wise weather prediction in Kerala using ML models with a streamlined Streamlit UI.
+            </p>
+            <div class="mt-3 flex gap-4">
+              <a href="https://github.com/jagant141/Kerala-weather-prediction-model" target="_blank" rel="noopener"
+                 class="text-sky-600 hover:underline focus-ring">GitHub</a>
+              <a href="https://kerala-weather-prediction-model-webapp.streamlit.app/" target="_blank" rel="noopener"
+                 class="text-sky-600 hover:underline focus-ring">Live</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="group bg-white shadow rounded-2xl overflow-hidden hover:shadow-lg transition">
+          <a href="#" class="block focus-ring">
+            <img src="images/student.png" alt="Student Management System preview" class="w-full h-48 object-cover" loading="lazy">
+          </a>
+          <div class="p-5">
+            <h3 class="text-xl font-semibold text-gray-900 group-hover:text-sky-600 transition">
+              Student Management System
+            </h3>
+            <p class="mt-2 text-gray-600">
+              Flask-based app for managing student records with clean CRUD flows and validation.
+            </p>
+            <div class="mt-3">
+              <a href="https://github.com/jagant141/scholarship-manag.ment" target="_blank" rel="noopener"
+                 class="text-sky-600 hover:underline focus-ring">GitHub</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-300 py-6 mt-10" role="contentinfo">
+    <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-3">
+      <p>© <span id="year"></span> Jagan T. All rights reserved.</p>
+      <p>
+        <a href="mailto:jagant141@gmail.com" class="text-sky-400 hover:underline">jagant141@gmail.com</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    // Active tab handling with ARIA
+    const tabs = document.querySelectorAll('nav button[data-target]');
+    const sections = {
+      home: document.getElementById('home'),
+      projects: document.getElementById('projects')
+    };
+
+    function showTab(targetId, btn) {
+      Object.values(sections).forEach(sec => sec.classList.add('hidden'));
+      sections[targetId].classList.remove('hidden');
+
+      tabs.forEach(t => {
+        t.classList.remove('active-tab');
+        t.removeAttribute('aria-current');
+      });
+      btn.classList.add('active-tab');
+      btn.setAttribute('aria-current', 'page');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    tabs.forEach(btn => {
+      btn.addEventListener('click', () => showTab(btn.dataset.target, btn));
+      btn.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          showTab(btn.dataset.target, btn);
+        }
+      });
+    });
+
+    // Year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
